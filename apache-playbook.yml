@@ -1,0 +1,10 @@
+--- 
+
+- hosts: webservers 
+
+  become: yes 
+
+  roles: 
+
+    - roles 
+    - ntp-ansible-role-centos-9  
